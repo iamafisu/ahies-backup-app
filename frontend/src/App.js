@@ -160,7 +160,7 @@ function App() {
       <Routes>
         <Route path="/" element={<UploadPage />} />
         <Route path="/help" element={<Help />} />
-        {/* <Route path="/report" element={<ReportPage />} /> Add report route */}
+        <Route path="/report" element={<ReportPage />} /> Add report route
       </Routes>
     </Router>
   );
